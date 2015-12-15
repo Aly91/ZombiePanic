@@ -1,41 +1,28 @@
-import ddf.minim.spi.*;
-import ddf.minim.signals.*;
-import ddf.minim.*;
-import ddf.minim.analysis.*;
-import ddf.minim.ugens.*;
-import ddf.minim.effects.*;
+PImage title;
 void setup()
 {
  size (500, 500); 
+ title = loadImage("titlescreen.jpg");
+ image(title,0,0,width, height);
 }
 
-void Menu(boolean Start, boolean Story, boolean Instuctions)
+void Menu(Boolean Start, Boolean Story, Boolean Instructions)
 {
+
   Start = false;
   Story = false;
   Instructions = false;
   
-  if mouseClicked(Start == true)
-  {
-    
-    
-  }
-  
-  if mouseClicked(Story == true)
-  {
-    
-    
-  }
-  
-  if mouseClicked(Instructions == true)
-  {
-    
-    
-  }
-  
+  text 
 }
 
-
+void mouseClicked()
+{
+  
+  
+}
+  
+ 
 void draw()
 {
   //GameEntity.update;

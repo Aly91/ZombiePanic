@@ -4,15 +4,7 @@ class Player extends GameEntity
  int health =  100;
    
    
-   update()
-   {
-     
-   }
    
-   render()
-   {
-     
-   }
   
   
 }
